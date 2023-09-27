@@ -1,0 +1,231 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 21 Nov 2022, 20:10:24
+    Author     : Acer
+*/
+
+
+
+h5{
+    margin-top: 1px;
+    color: white;
+    margin: 7px 12px;
+    position: relative;
+    left: -18%;
+    font-family: barlow condensed,sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.subbox{
+    border: 1px solid transparent;
+    background-color: whitesmoke;
+    height: 50px;
+}
+
+ol{
+    float: left;
+    
+}
+ol li{
+    float:left;
+    width: 90px;
+    position: relative;
+    left: 25%;
+    list-style-type: none;
+    font-family: barlow condensed,sans-serif;
+    font-size: 18px;
+}
+ol li a{
+    text-decoration: none;
+    color:black;
+}
+
+ol li a:hover{
+    border-bottom: 4px solid red;
+}
+
+h3{
+    color:red;
+    position: absolute;
+    left: 88.8%;
+    top:4%;
+    width: 18px;
+    height: -50px;
+    border-radius: 100px;
+    text-align: center;
+    font-family: barlow condensed,sans-serif;
+}
+
+h2{
+    position: relative;
+    left: -61.2%;
+    text-transform: uppercase;
+    font-family: barlow condensed,sans-serif;
+    margin-top:2px;
+    font-weight:bolder;
+}
+font{
+    color: red;
+}
+.cover img{
+    background-size: cover;
+    height: 530px;
+    width: 1328px;
+}
+.text{
+    position: absolute;
+    top: 30%;
+    left: 7%;
+}
+
+h1{
+    font-size: 70px;
+    font-family: barlow condensed,sans-serif;
+    text-transform: capitalize; 
+    width: 460px;
+    word-spacing: 0px;
+    font-weight: normal;
+    line-height: 72px;
+}
+
+h4{
+    position: absolute;
+    top:-4%;
+    font-size: 20px;
+    font-family: barlow condensed,sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+form input[type="submit"]{
+    position: absolute;
+    top: 86%;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: crimson;
+    border:none;
+    color:white;
+    font-family: barlow condensed,sans-serif;
+    letter-spacing: 1px;
+}
+
+form input[type="submit"]:hover{
+    background-color: red;
+}
+
+.image22{
+    position: absolute;
+    left: 10%;
+    top:100%;
+    border: 1px solid darkgray;
+    box-shadow: 1px 2px 4px;
+}
+h6{
+    color:black;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    border:1px solid whitesmoke;
+    width: 200px;
+    font-size: 40px;
+    font-family: barlow condensed,sans-serif;
+    background-color: white;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+
+ol li a:hover{
+    border-bottom: 4px solid red;
+
+h1 {
+  font-size: 10px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+
+body {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+p  {
+ color:white
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
